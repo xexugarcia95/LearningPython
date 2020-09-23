@@ -5,6 +5,7 @@ empezando por la última."""
 
 
 palabra = input("Introduzca una palabra: ")
-i = len(palabra)
-for i in range(0):
-    print(palabra[i])
+
+
+for i in range(len(palabra), 0, -1):
+    print(palabra[i-1])
