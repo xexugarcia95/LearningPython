@@ -2,7 +2,7 @@
 50, 75, 46, 22, 80, 65, 8, y muestre por pantalla el menor y el
 mayor de los precios."""
 
-tupla = (50,75,46,22,80,65,8)
+tupla = (50, 75, 46, 22, 80, 65, 8)
 mayor = 0
 menor = 999999
 

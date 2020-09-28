@@ -5,7 +5,7 @@ pantalla con el mensaje En <asignatura> has sacado <nota> donde <asignatura>
  es cada una des las asignaturas de la lista y <nota> cada una de las
  correspondientes notas introducidas por el usuario."""
 
-lista = ["Matematicas","Fisica","Quimica","Historia","Lengua"]
+lista = ["Matematicas", "Fisica", "Quimica", "Historia", "Lengua"]
 lista2 = []
 
 for i in range(len(lista)):

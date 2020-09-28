@@ -6,7 +6,7 @@ unos ingresos iguales o superiores a 1000 € mensuales. Escribir un programa qu
 edad = int(input("Introduce tu edad: "))
 ingresos = int(input("Introduce tus ingresos mensuales: "))
 
-if edad > 16 and ingresos>=1000:
-     print("Puede tributar")
+if edad > 16 and ingresos >= 1000:
+    print("Puede tributar")
 else:
     print("No puede tributar")

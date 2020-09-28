@@ -5,9 +5,9 @@ renta = int(input("Renta anual: "))
 
 if renta < 10000:
     print("5%")
-elif renta >=10000 and renta <20000:
+elif renta >= 10000 and renta < 20000:
     print("15%")
-elif renta >=20000 and renta <35000:
+elif renta >= 20000 and renta < 35000:
     print("30%")
 else:
     print("45%")

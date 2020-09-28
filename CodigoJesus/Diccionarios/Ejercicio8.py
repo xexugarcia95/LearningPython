@@ -8,12 +8,12 @@ Si una palabra no está en el diccionario debe dejarla sin traducir."""
 diccionario = {}
 print("Formato de insercion: <palabra>:<traducción>")
 palabra = input("Introduce: ")
-while palabra !='.':
+while palabra != '.':
     palabra = palabra.split(":")
     diccionario[palabra[0]] = palabra[1]
     palabra = input("Introduce otra: ")
 print("Pide palabras para obtener su traducción")
 palabra = input("Introduce: ")
-while palabra !='.':
-    print(diccionario.get(palabra,"No existe esta palabra en el diccionario"))
+while palabra != '.':
+    print(diccionario.get(palabra, "No existe esta palabra en el diccionario"))
     palabra = input("Introduce: ")

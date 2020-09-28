@@ -3,7 +3,7 @@
 la muestre por pantalla el mensaje Yo estudio <asignatura>, donde <asignatura>
 es cada una de las asignaturas de la lista."""
 
-lista = ["Matematicas","Fisica","Quimica","Historia","Lengua"]
+lista = ["Matematicas", "Fisica", "Quimica", "Historia", "Lengua"]
 
 for i in range(len(lista)):
     print("Yo estudio " + lista[i])

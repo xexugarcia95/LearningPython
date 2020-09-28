@@ -4,11 +4,11 @@ pregunte al usuario la nota que ha sacado en cada asignatura y elimine de la
 lista las asignaturas aprobadas. Al final el programa debe mostrar por pantalla
 las asignaturas que el usuario tiene que repetir."""
 
-lista = ["Matematicas","Fisica","Quimica","Historia","Lengua"]
+lista = ["Matematicas", "Fisica", "Quimica", "Historia", "Lengua"]
 suspensos = []
 for i in range(len(lista)):
     nota = float(input("Qué nota has sacado en " + lista[i] + "?: "))
-    if(nota<5):
+    if(nota < 5):
         suspensos.append(lista[i])
 
 print("Tienes que repetir: " + str(suspensos[:]))

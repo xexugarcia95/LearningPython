@@ -9,6 +9,6 @@ y tercer años. Redondear cada cantidad a dos decimales."""
 ahorro = float(input("Introduce tus ahorros: "))
 beneficio = float(ahorro*0.04)
 
-print("Primer año: " + str(round(ahorro+beneficio,2)))
-print("Segundo año: " + str(round(ahorro+beneficio*2,2)))
-print("Tercer año: " + str(round(ahorro+beneficio*3,2)))
+print("Primer año: " + str(round(ahorro+beneficio, 2)))
+print("Segundo año: " + str(round(ahorro+beneficio*2, 2)))
+print("Tercer año: " + str(round(ahorro+beneficio*3, 2)))

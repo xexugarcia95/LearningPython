@@ -4,7 +4,7 @@ la contraseña correcta."""
 
 cadena = "contraseña"
 val = input("Introduce contraseña: ")
-while val!= cadena:
-    val=input("Incorrecta, introduce otra contraseña: ")
+while val != cadena:
+    val = input("Incorrecta, introduce otra contraseña: ")
 
 print("Contraseña correcta")

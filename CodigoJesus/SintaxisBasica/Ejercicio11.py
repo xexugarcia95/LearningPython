@@ -5,6 +5,6 @@ obtenido en la inversión."""
 invertir = int(input("Cantidad a invertir: "))
 interes = float(input("Interes anual: "))
 num = int(input("Numero de años: "))
-capitalFinal = round(invertir*(interes/100+1)**num,2)
+capitalFinal = round(invertir*(interes/100+1)**num, 2)
 
 print("Capital obtenido: " + str(capitalFinal))

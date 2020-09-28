@@ -2,18 +2,18 @@
 el número de veces que contiene cada vocal."""
 
 palabra = input("Introduce una palabra/frase: ")
-contador = [0,0,0,0,0]
+contador = [0, 0, 0, 0, 0]
 
 for i in range(len(palabra)):
     if palabra[i] == 'a':
-        contador[0]+=1
+        contador[0] += 1
     if palabra[i] == 'e':
-        contador[1]+=1
+        contador[1] += 1
     if palabra[i] == 'i':
-        contador[2]+=1
+        contador[2] += 1
     if palabra[i] == 'o':
-        contador[3]+=1
+        contador[3] += 1
     if palabra[i] == 'u':
-        contador[4]+=1
+        contador[4] += 1
 
 print(contador)

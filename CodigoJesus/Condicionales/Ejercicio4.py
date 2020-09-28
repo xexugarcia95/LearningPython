@@ -3,7 +3,7 @@ por pantalla si es par o impar."""
 
 val = int(input("Introduce un valor: "))
 
-if val%2 == 0:
+if val % 2 == 0:
     print("Numero par")
 else:
     print("Numero impar")

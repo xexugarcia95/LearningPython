@@ -5,7 +5,7 @@ nuevo dato debe imprimirse el contenido del diccionario."""
 
 diccionario = {}
 clave = input("Introduce clave: ")
-while clave !='.':
+while clave != '.':
     info = input("Introduce valor: ")
     diccionario[clave] = info
     print(diccionario)

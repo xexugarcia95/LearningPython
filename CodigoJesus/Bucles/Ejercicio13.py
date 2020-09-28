@@ -2,6 +2,6 @@
 introduzca hasta que el usuario escriba “salir” que terminará."""
 
 frase = input("Introduce frase: ")
-while frase!="salir":
+while frase != "salir":
     print(frase)
     frase = input("")

@@ -13,5 +13,7 @@ diccionario["direccion"] = aux
 aux = input("Teléfono: ")
 diccionario["telefono"] = aux
 
-print(str(diccionario.get("nombre")) + " tiene " + str(diccionario.get("edad")) + " años, vive en "
-+ str(diccionario.get("direccion")) + " y su número de teléfono es " + str(diccionario.get("telefono")))
+print(str(diccionario.get("nombre")) + " tiene " + str(diccionario.get("edad"))
+      + " años, vive en " + str(diccionario.get("direccion"))
+      + " y su número de teléfono es "
+      + str(diccionario.get("telefono")))

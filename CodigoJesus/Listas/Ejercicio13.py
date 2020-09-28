@@ -9,12 +9,13 @@ for i in range(5):
 cont = 0
 cont2 = 0
 for i in range(5):
-    cont+=lista[i]
-cont/=5
+    cont += lista[i]
+cont /= 5
 
 for i in range(5):
-    cont2+=(lista[i]-cont)**2
-cont2/=5
+    cont2 += (lista[i]-cont)**2
+cont2 /= 5
 cont2 = cont2**(1/2)
 
-print("La media es " + str(cont) + " y la desviación típica es " + str(round(cont2,2)))
+print("La media es " + str(cont) + " y la desviación típica es "
+      + str(round(cont2, 2)))

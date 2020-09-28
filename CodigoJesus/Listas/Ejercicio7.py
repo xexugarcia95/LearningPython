@@ -5,11 +5,11 @@ la lista resultante."""
 lista = []
 lista2 = []
 # chr() te convierte el numero en caracter de la tabla ascii correspondiente
-for i in range(97,123,1):
+for i in range(97, 123, 1):
     lista.append(chr(i))
 
 for i in range(len(lista)):
-    if (i+1)%3!=0:
+    if (i+1) % 3 != 0:
         lista2.append(lista[i])
 print("Lista antes: ")
 print(lista[:])

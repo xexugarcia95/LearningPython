@@ -6,7 +6,7 @@ frase = input("Introduce una frase: ")
 letra = input("Introduce una letra: ")
 contador = 0
 for i in range(len(frase)):
-    if frase[i]==letra:
-        contador+=1
+    if frase[i] == letra:
+        contador += 1
 
 print("Numero de veces que aparece: " + str(contador))

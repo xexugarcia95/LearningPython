@@ -7,7 +7,7 @@ repeticion = int(input("Introduce el numero de repeticiones: "))
 
 print((mi_nombre + "\n")*repeticion)
 
-#Se puede hacer con bucle, pero como todavia no se ha llegado a esta parte
-#se hace de una manera más simple
+# Se puede hacer con bucle, pero como todavia no se ha llegado a esta parte
+# se hace de una manera más simple
 """for i in range(repeticion):
     print(mi_nombre)"""

@@ -4,7 +4,7 @@ separados por comas."""
 
 num = int(input("Introduce numero entero positivo: "))
 
-for i in range(1,num+1,2):
-    print(str(i),end="")
+for i in range(1, num+1, 2):
+    print(str(i), end="")
     if i != num:
-        print(",",end="")
+        print(",", end="")
