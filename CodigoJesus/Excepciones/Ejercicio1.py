@@ -6,7 +6,17 @@ def division(a, b):
         return "Operación errónea"
 
 
-op1 = int(input("introduce un operador: "))
-op2 = int(input("Introduce otro operador: "))
+try:
+    op1 = int(input("introduce un operador: "))
+except ValueError:
+    print("Valor no válido")
 
-print(division(op1, op2))
+try:
+    op2 = int(input("Introduce otro operador: "))
+except ValueError:
+    print("Valor no válido")
+
+try:
+    print(division(op1, op2))
+except NameError:
+    print("Debido a errores previos, las variables no están bien definidas")
