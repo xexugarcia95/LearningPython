@@ -6,15 +6,13 @@ def division(a, b):
         return "Operación errónea"
 
 
-try:
-    op1 = int(input("introduce un operador: "))
-except ValueError:
-    print("Valor no válido")
-
-try:
-    op2 = int(input("Introduce otro operador: "))
-except ValueError:
-    print("Valor no válido")
+while True:
+    try:
+        op1 = int(input("introduce un operador: "))
+        op2 = int(input("Introduce otro operador: "))
+        break
+    except ValueError:
+        print("Valor no válido")
 
 try:
     print(division(op1, op2))
